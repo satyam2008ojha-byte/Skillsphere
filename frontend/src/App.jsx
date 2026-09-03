@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 
-const API='http://127.0.0.1:8000/api'
+const API='https://skill-sphere-8oi5.onrender.com/api'
 
 function Login({onLogin}) {
   const [email,setEmail]=useState('trainee@skillsphere.com')
